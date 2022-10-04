@@ -1,0 +1,167 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.section{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ddd;
+}
+.container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+.content-section{
+    float:left;
+    width: 55%;
+    align-items: center;
+}
+.image-section{
+    float: right;
+    width: 40%;
+}
+.image-section img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.content-section .title{
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.content-section .content h3{
+    margin-top: 20px;
+    color: #5d5d5d;
+    font-size: 23px;
+    font-weight: bold;
+}
+.content-section .content p{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+.content-section .content span{
+    font-family: sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+/* .content-section .content .button{
+    margin-top: 30px;
+    font-size: 1.563rem;
+}
+.content-section .content .button a{
+    background-color: #3d3d3d;
+    padding: 12px 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.563rem;
+    letter-spacing: 1.5px;
+    border-radius: 3rem;
+} */
+
+.content-section .content a{
+    font-size: 1.563rem;
+    text-decoration: none;
+    letter-spacing: 0.12rem;
+    padding-top: 1.75rem;
+}
+
+.readless{
+    cursor: pointer;
+}
+.content-section .content a:hover{
+    color: #000000;
+}
+.content-section .social{
+    margin: 2.5rem 0;
+}
+.content-section .social i{
+    font-size: 30px;
+    padding: 0px 10px;
+}
+.content-section .social .fa-facebook{
+    color:#1877f2;
+}
+.content-section .social .fa-facebook-messenger{
+    color:#01B3F5;
+}
+
+.content-section .social .fa-github{
+    color: #000000;
+}
+.content-section .social .fa-linkedin{
+    color: #0966c2;
+}
+.content-section .social .fa-twitter{
+    color: #5AA4D6;
+}
+.content-section .social .fa-instagram{
+    color: #aa2222;
+}
+
+.content-section .social i:hover{
+    color: #000000;
+}
+@media screen and (max-width:768px) {
+    .container{
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 50px;
+    }
+    .content-section{
+        float:none;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .image-section{
+        float:none;
+        width: 100%;
+    }
+    .image-section img{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: auto; 
+       
+    }
+    .content-section .title{
+        margin-top: 1rem;
+        text-align: center;
+        font-size: 1.75rem;
+        font-weight: bold;
+    }
+    .content-section .content a .readless{
+        text-align: center; 
+    }
+    .content-section .content .button a{
+        padding: 0.625rem 0.75rem;
+    }
+    .content-section .social{
+        text-align: center;
+        margin: 2.5rem 2.5rem;
+        padding-bottom: 1.25rem;
+    }
+    .content-section .content h3{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .content-section .content p{
+        font-family: sans-serif;
+        font-size: 0.75rem;
+    }
+    .content-section .content span{
+        font-family: sans-serif;
+        font-size: 0.75rem;
+    }
+    .content-section .content .hiddenP{
+        font-size: 0.75rem;
+    }
+}
